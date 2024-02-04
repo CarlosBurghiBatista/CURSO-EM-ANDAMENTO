@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas, áudios e v´deos.</title>
+    <style>
+        body{background-color: rgb(220, 20, 20);}
+    </style>
+</head>
+<body>
+     <picture>
+        <source media="(max-width: 750px)" srcset="P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="M.png" type="image/png">
+        <img src="G.png" alt="A imagem flexível funciona">
+     </picture>
+
+     <audio preload="metadata" controls loop>
+          <source src="The Red Baron.mp3 " type="audio/mp3">
+     </audio>
+
+     <video src=""></video>
+</body>
+</html>
