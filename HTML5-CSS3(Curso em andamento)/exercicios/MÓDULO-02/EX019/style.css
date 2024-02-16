@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* HTML (id) em CSS (#) Somente um elemento*/
+/* HTML (class) em CSS (.) Vários elementos*/
+
+body{background-color: rgb(205, 255, 203);
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1em;}
+
+h1{color: rgb(4, 109, 0);}
+
+h2{color: rgb(73, 109, 71);}
+
+p{text-align: justify;
+  font-style: oblique;
+  font-weight: bolder;}
+
+#Principal{background-color: rgb(4, 109, 0);
+color: white;
+text-align: center;}
+
+.sub_título{color: red;}
+
+.Básico{
+     color: darkgreen;
+     background-color:rgb(73, 225, 73);}
+.Intermediário{
+     color: darkgreen;
+     background-color:rgb(127, 220, 127);}
+.Avançado{color: darkgreen;
+          background-color:rgb(168, 232, 168);}
+          
+.Descrição{
+     font-size: 1.8em;
+     color: brown;
+     background-color: yellow;}          
