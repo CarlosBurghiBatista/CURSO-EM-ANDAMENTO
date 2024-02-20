@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+       /* Exemplo de Block-level*/
+       h1{background-color: lightgray;
+           width: 300px;
+           height: 300px;
+           border-width: 10px;/* shorthand = border: 10px solid color;*/
+           border-style: solid;
+           border-color:darkslategray;
+           padding: 40px 20px;/* shorthand = padding: 10px 10px 10px 10px;*/ 
+           margin:200px auto 100px;
+           outline: 10px dashed magenta;}
+        
+           #h102{background-color:white;width: auto;height: auto;outline: none;
+           border: none;padding:3px;}   
+          
+         p{border: 5px solid black;}
+       
+        /* Exemplo de Inline-level*/   
+         a{border: 10px solid red;
+           padding: 10px;}
+    </style>
+</head>
+<body>
+    <h1>Exemplos de caixas Box-Level</h1>
+    
+    <p>Parágrafos também são exemplos de caixas box-level, mas os <a href="#">links são exemplos de caixas inline-level.</a>Vamos ver como tudo isso funciona.</p>
+    
+    <h1 id="h102">Este texto é um &lt;h1&gt; que recebeu um identificador e foi configurado diferente do &lt;h1&gt; do início da página.</h1>
+</body>
+</html>

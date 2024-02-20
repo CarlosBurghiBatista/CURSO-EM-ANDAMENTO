@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elementos</title>
+    <style>
+        body{background-color: aquamarine;font-size: 1.1em;}
+        h1{background-color: aqua;}
+        div{background-color: bisque;width: 450px;height: 130px;margin-left:210px;}
+        ul{font-size: 2em;}
+        .coroa{text-align: center;}
+        
+        /* exemplos de pseudo-classes*/ 
+        .Link:visited{color: red;}
+        .Link:hover{color: blue;}
+        .Link:active{color: yellow;}
+       
+        /* exemplos de pseudo-elementos*/
+        a::after{content: 'Para a página teste';color: blue;} 
+        h1::after{content: ' >>';}
+        h1::before{content: '<< ';}
+        h2::before{content: '♚';}
+        h2::after{content: '♚';}
+    
+    </style>
+</head>
+<body>
+    <h1>Exemplos de Pseudo-Classes e Pseudo-Elementos</h1>
+    <h2 class="coroa">KING</h2>
+    <div>
+        <ul>
+            <li><a href="PáginaLINK.html" class="Link">LINK 01</a></li>
+            <li><a href="PáginaLINK.html" class="Link">LINK 02</a></li>
+            <li><a href="PáginaLINK.html" class="Link">LINK 03</a></li>
+        </ul>
+    </div>
+    <h2 class="coroa">KING</h2>
+</body>
+</html>
