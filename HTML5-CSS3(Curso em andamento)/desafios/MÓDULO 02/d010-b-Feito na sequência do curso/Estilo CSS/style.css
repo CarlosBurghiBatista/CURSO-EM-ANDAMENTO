@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+
+body{background-color: #c5ebd6;}
+
+
+ul{list-style:'\2724\020\020';
+    columns: 2;}
