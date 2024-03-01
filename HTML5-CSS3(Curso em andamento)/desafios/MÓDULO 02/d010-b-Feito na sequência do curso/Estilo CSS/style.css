@@ -31,17 +31,18 @@ body{font-family:var(--fonte-padrão);
 
 header{min-height: 150px;
        background-image: linear-gradient(to bottom, var(--cor3),var(--cor5));
-       text-align:center ;
        padding-top:40px;}
 
 header h1{font-family:var(--fonte-destaque);
           font-size: 3em;
+          text-align: center;
           color: white;
           margin-bottom: 20px;
           text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);}
 
 header p{font-family: var(--fonte-padrão);
          font-size: 1.2em;
+         text-align: center;
          color: white;
          text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);}
          /*width: 500px;      |
@@ -55,7 +56,7 @@ nav{background-color: var(--cor5);
     }
     
 nav a{color: white;
-      padding: 10px ;
+      padding: 10px;
       border-radius: 5px;
       text-decoration: none;
       font-weight: bold;
@@ -100,10 +101,34 @@ main a{text-decoration: none;
 main a:hover{text-decoration:underline;
              color:red;}
              
-main a:visited{border: 4px solid red;}             
+main a:visited{border: 4px solid red;}
+
+aside{background-color: var(--cor1);
+      padding: 10px;
+      border-radius: 10px;}
+
+aside h3{background-color: var(--cor4);
+         color: white;
+         padding: 5px;
+         margin: -10px -10px -0px -10px;
+         border-radius: 10px 10px 0px 0px;}
+         
+aside > ul{list-style:'\2714\00A0\00A0';
+            columns: 2;
+            list-style-position: inside;}      
 
 footer{background-color: var(--cor5);
-       color: white;}
+       color: white;
+       text-align: center;
+       font-size:0.8p ;
+       padding: 5px;}
+
+footer a{color: white;
+         text-decoration: none;
+         font-weight: bolder;}
+         
+footer a:hover{text-decoration: underline;
+               color: var(--cor1);}         
 
 h2{font-family:var(--fonte-android);
    color: var(--cor4);
@@ -111,8 +136,8 @@ h2{font-family:var(--fonte-android);
    text-indent: 8px;}
 
 strong{font-size: 1.2em;
-    color: var(--cor3);}
+       color: var(--cor3);}
 
-ul{list-style:'\2714\020\020';
-    columns: 2;
-    list-style-position: inside;}
+a.externo::after{
+content:'\1F517\00A0';}       
+
