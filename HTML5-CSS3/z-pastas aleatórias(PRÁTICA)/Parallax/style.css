@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{padding: 0px;
+  margin: 0px;}
+
+body{background-color:bisque;}
+
+header{background-color: red;
+       width: 100vw 20vw;
+       height: 10vh 2vh;}
+
+   header > h1{text-align: center;
+               font-size: 9vw;}
+               
+   header > p{text-align: center;
+              font-size: 4vw;
+              font-weight: bolder;
+              padding:10px;}
+              
+section{border: 2px solid;
+        width: 100vw 20vw;
+        height: 40vh 5vh;}
+
+   section > p{margin: 10px;
+               padding: 10px;
+               font-size: 3.5vw;
+               text-align: justify;
+               line-height:1.7;}
+        .font{color: white; 
+              text-shadow: 0px 0px 7px black;}            
+        
+        .normal{background-color: yellow;}
+        
+        #img01{background: url(imagens/folhas01.png)no-repeat fixed ;
+              background-size: cover;}
+
+        #img02{background: url(imagens/unsplash01.png)no-repeat fixed ;
+              background-size: cover;}
+              
+footer{background-color: black;
+       width: 100vw 20vw;
+       height: 10vh 2vh;}
+       
+    footer > p{color: white;
+               font-size: 4vw;
+               text-align: center;
+               padding: 5px;}   
+                    
+
