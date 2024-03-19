@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{background-color: beige;
+    font-family: 'Courier New', Courier, monospace;}
+
+table{width: 650px;
+     border-collapse: collapse;}
+
+caption{font-size: 1.5em;
+       padding: 10px;
+       font-weight: bold;}      
+
+thead{font-size: 2.5em;}
+
+th{background-color:rgb(212, 128, 68);}
+
+th.font{font-size: 1.5em;}
+
+td{background-color: bisque;
+  font-weight:bold;}   
+
+th,td{border: 2px solid black;
+     padding: 5px;
+     box-shadow: inset 1px 1px 9px rgb(70, 30, 2);}
