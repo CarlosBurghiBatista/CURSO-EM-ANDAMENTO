@@ -20,14 +20,15 @@
     <h2>NAVEGAÇÃO NO IFRAME</h2>
     <P>Aqui vemos como é possível navegar abrindo vários locais dentro do mesmo  iframe e para isso foi criada uma lista com links internos e externos que quando ativados irão abrir dentro do quadro.
     </P>
+    <p>Também foi criada uma página inicial para o iframe para que não fique vazio enquanto o usuário não escolhe uma opção da lista.</p>
     <ul>
         <li><a href="https://cursoemvideo.com" target="quadro">Curso em Vídeo</a> - Página externa</li>
-        <li><a href="pdf/01 - História da Internet.pdf" target="quadro">História da internet-pdf</a> - Arquivo-interno</li>
-        <li><a href="pdf/index.html" target="quadro">Foto</a> - Página interna</li>
+        <li><a href="arquivos/01 - História da Internet.pdf" target="quadro">História da internet-pdf</a> - Arquivo-interno</li>
+        <li><a href="arquivos/index.html" target="quadro">Foto</a> - Página interna</li>
         <li><a href="https://github.com" target="quadro">GitHub</a> - Página externa</li>
     </ul>
   <br>
-    <iframe name="quadro"></iframe> 
+    <iframe src="/arquivos/index02.html" name="quadro"></iframe> 
 <br>
     <p>A maioria das páginas externas não permitem ser colocadas dentro de iframes e recusam a conexão como o link para o GitHub dado como exemplo.</p>
 </body>
