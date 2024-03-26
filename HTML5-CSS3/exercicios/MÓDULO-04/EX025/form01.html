@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Formulário 1</title>
+    <style>
+        body{background-color: bisque;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-size: 1.5em;}
+    </style>
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form>
-        <p>NOME: <input type="text" name="nome" id="nome"></p>
-        <p>SOBRENOME: <input type="text" name="sobrenome" id="sobrenome"></p>
-        <p><input type="submit" value="Enviar"></p>
+    <form action="cadastro.php" method="get">
+        <p><label for="Nome">NOME:</label> 
+            <input type="text" name="nome" id="Nome"></p>
+        <p><label for="Sobrenome">SOBRENOME:</label> 
+            <input type="text" name="sobrenome" id="Sobrenome"></p>
+        
+            <p><input type="submit" value="Enviar"></p>
     </form>
 </body>
 </html>
