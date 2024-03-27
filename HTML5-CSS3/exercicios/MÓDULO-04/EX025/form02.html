@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário 2</title>
+    <style>
+        body{background-color: bisque;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-size: 1.5em;}
+    </style>
 </head>
 <body>
     <h1>Teste de Formulário</h1>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="get" autocomplete="on">
         <p>
-            <label for="Usu">USUÁRIO</label>
-            <input type="text" name="n-Usu" id="Usu">
+            <label for="Usu">*USUÁRIO</label>
+            <input type="text" name="USUÁRIO" id="Usu" required minlength="5" maxlength="15" size="10" placeholder="nome do usuário" autocomplete="username">
         </p>
         <p>
-            <label for="Sen">SENHA</label>
-            <input type="password" name="n-Sen" id="Sen">
+            <label for="Sen">*SENHA</label>
+            <input type="password" name="SENHA" id="Sen" required minlength="8" max="15" size="10" placeholder="min 8 caracteres" autocomplete="current-password">
         </p>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar"> 
         </p>
+        <p>(*)Campos obrigatórios</p>
 
     </form>
 </body>
