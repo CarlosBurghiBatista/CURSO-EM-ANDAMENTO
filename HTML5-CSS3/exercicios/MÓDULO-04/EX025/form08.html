@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 8</title>
+    <style>
+        body{background-color: bisque;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1.5em;}
+        
+           fieldset{width: 350px;
+                background-color: aqua;}
+    </style> 
+</head>
+<body>
+    <h1>Formulário 8</h1>
+    <h2>Elemento output em formulários HTML</h2>
+    <fieldset>
+        <form action="cadastro.php" method="post">
+            <p>
+                <label for="n1">NÚMERO 1</label>
+                <input type="number" name="NÚMERO 1" id="n1" min="0" max="50" required oninput="isom.innerHTML = Number(n1.value) + Number(n2.value)">
+            </p>
+            <p>
+                <label for="n2">NÚMERO 2</label>
+                <input type="number" name="NÚMERO 2" id="n2" min="0" max="50" required oninput="isom.innerHTML = Number(n1.value) + Number(n2.value)">
+            </p>
+            <p>
+                <label for="isom">SOMA</label>
+                <output name="SOMA" id="isom">0</output>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>
