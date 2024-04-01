@@ -2,4 +2,5 @@
 
 /*Aparelho deitado (landscape)*/
 
-body{background-color: red;}
+body{background: url(/mq02/imagens/cev-landscape.jpg) no-repeat center bottom fixed;
+background-size: contain;}
