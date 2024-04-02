@@ -15,10 +15,10 @@
   
      /*Declarações retrato*/
      @media screen and (orientation: portrait){
-      body{background: url(/imagens3/cev-portrait.jpg)no-repeat center bottom fixed;
+      body{background: url(../IMAGENS/cev-portrait.jpg)no-repeat center bottom fixed;
        background-size: contain;}}
   
      /*Declarações paisagem*/
      @media screen and (orientation: landscape) {
-      body{background: url(/imagens3/cev-landscape.jpg) no-repeat center bottom fixed;
+      body{background: url(../IMAGENS/cev-landscape.jpg) no-repeat center bottom fixed;
        background-size: contain;}}
