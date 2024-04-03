@@ -10,12 +10,11 @@
 
 html{height: 100vh;}
            
-body{background: black url(/imagens/back-phone.jpg) no-repeat center center;
+body{background: black url(../imagens/back-phone.jpg) no-repeat center center;
      background-size: cover;}
 
 main{background-color: rgba(255, 255, 255, 0.842);
      width: 90vw;
-     height: 90vh;
      margin: 20px auto;
      border-radius: 10px;
      padding: 10px;}
